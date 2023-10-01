@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
-	"go.uber.org/cadence/activity"
-	"go.uber.org/cadence/workflow"
 	"net/http"
 	"time"
+
+	"go.uber.org/cadence/activity"
+	"go.uber.org/cadence/workflow"
 
 	"go.uber.org/cadence/.gen/go/cadence/workflowserviceclient"
 	"go.uber.org/cadence/compatibility"
